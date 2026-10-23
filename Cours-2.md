@@ -4,7 +4,7 @@
 
 Cette synthèse reprend les notions présentées pendant la séance du 20 octobre 2026. Elle distingue les principes de structuration documentaire, les principales balises HTML abordées, les exigences du travail à réaliser et les échéances évoquées pendant le cours.
 
-L’objectif général est de comprendre comment concevoir une page Web structurée, accessible et exploitable par les navigateurs, les moteurs d’indexation et les outils de traitement de l’information. Le travail s’inscrit dans la continuité de l’étude de cas sur une plateforme de musique en ligne, menée avec M. Obadia dans le cadre de l’UE NTD 214. NTD 214 -S2-HTML5.docx
+L’objectif général est de comprendre comment concevoir une page Web structurée, accessible et exploitable par les navigateurs, les moteurs d’indexation et les outils de traitement de l’information. Le travail s’inscrit dans la continuité de l’étude de cas sur une plateforme de musique en ligne, menée avec M. Obadia dans le cadre de l’UE NTD 214.
 
 ## 1. Les principes fondamentaux du HTML5
 
@@ -43,14 +43,14 @@ Cette adaptation mobilise les feuilles de style et la structure du document. NTD
 Une balise HTML est généralement délimitée par des chevrons.
 
 Exemple :
-
+```HTML
 <p>Voici un paragraphe de texte.</p>
-
+```
 Dans cet exemple :
 
-* <p> ouvre le paragraphe ;
+* ```HTML<p>``` ouvre le paragraphe ;
 * le texte constitue le contenu ;
-* </p> ferme le paragraphe.
+* ```HTML</p>``` ferme le paragraphe.
 
 La plupart des éléments HTML possèdent une balise ouvrante et une balise fermante. Certaines balises, comme <img> et <meta>, n’ont pas de balise fermante en HTML5.
 
