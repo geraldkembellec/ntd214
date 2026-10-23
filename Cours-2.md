@@ -247,7 +247,7 @@ Cette organisation répond directement à la consigne de proposer une barre de n
 
 ### 2.5. Les images et leur description documentaire
 
-Le cours demande d’intégrer au minimum une image libre de droits par article, avec un texte alternatif, un titre et une légende. NTD 214 -S2-HTML5.docx
+Le cours demande d’intégrer au minimum une image libre de droits par article, avec un texte alternatif, un titre et une légende.
 
 Les principaux éléments à connaître sont les suivants :
 
