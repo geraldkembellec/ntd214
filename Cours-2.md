@@ -17,7 +17,7 @@ HTML signifie **HyperText Markup Language**. C’est un langage de balisage qui 
     - L’hypertextualité : les liens permettent de relier les ressources entre elles et d’organiser la navigation dans un ensemble documentaire.
 
 #### Distinction fondamentale : 
-le HTML sert à structurer et à qualifier le contenu, tandis que le CSS permet de définir sa présentation visuelle.
+le HTML sert à structurer et à qualifier le contenu, tandis que le <abbr title="Cascading Style Sheets (ou feuilles de style en cascade) est un langage de conception web qui sert à mettre en forme et à styliser les pages en HTML ou XML.">CSS</abbr> permet de définir sa présentation visuelle.
 
 Par exemple, la balise ```<em> ``` exprime une emphase. Le navigateur peut la restituer en italique, mais cette présentation peut être modifiée par une feuille de style.
 
