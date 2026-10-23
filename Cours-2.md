@@ -157,7 +157,7 @@ Les six niveaux de titres sont un moyen de représenter la hiérarchie d’un do
 </main>
 ```
 
-La balise ```<section>``` permet de regrouper des contenus qui forment un ensemble cohérent. 
+La balise ```<section>``` permet de regrouper des contenus qui forment un ensemble cohérent.
 Elle ne produit pas, à elle seule, un effet visuel particulier.
 
 Principe à respecter : la hiérarchie des titres doit correspondre à l’organisation intellectuelle du contenu. Il ne faut pas choisir un niveau de titre uniquement pour obtenir une taille de police particulière.
@@ -379,6 +379,7 @@ Les règles de nommage définissent la manière de nommer les fichiers de façon
 Le plan de classement organise les répertoires et les fichiers selon une architecture logique.
 
 Exemple d’arborescence :
+
 ```text
 | musique-online/
 ├── index.html
