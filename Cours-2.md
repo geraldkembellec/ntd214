@@ -79,10 +79,6 @@ Cette distinction présente plusieurs avantages :
 * favoriser l’accessibilité, notamment avec les technologies d’assistance ;
 * rendre le document plus facilement maintenable et réutilisable.
 
-Le cours souligne ainsi que la qualité de la structure documentaire contribue à la fois à l’accessibilité et à l’indexation. NTD 214 -S2-HTML5.docx
-
-⸻
-
 ## 2. Les principales balises HTML à connaître
 
 Les balises ci-dessous constituent une fiche de révision organisée par fonction. Elles reprennent les éléments présentés pendant la séance et les consignes de réalisation du site.
@@ -113,7 +109,7 @@ Exemple de structure minimale :
 </body>
 </html>
 
-À retenir : le <head> contient des informations descriptives et techniques ; le <body> contient les éléments qui constituent le contenu de la page. Le titre défini dans <title> est distinct du titre principal affiché dans la page. NTD 214 -S2-HTML5.docx
+À retenir : le <head> contient des informations descriptives et techniques ; le <body> contient les éléments qui constituent le contenu de la page. Le titre défini dans <title> est distinct du titre principal affiché dans la page.
 
 ### 2.2. Les titres et les sections
 
@@ -178,7 +174,7 @@ Exemple :
 
 La distinction entre <strong> et <em> est importante : ces balises qualifient le contenu, elles ne servent pas simplement à obtenir du gras ou de l’italique.
 
-Le cours insiste sur le fait que les balises doivent être utilisées à bon escient, en fonction de la signification du texte. NTD 214 -S2-HTML5.docx
+Le cours insiste sur le fait que les balises doivent être utilisées à bon escient, en fonction de la signification du texte.
 
 ### 2.4. Les liens hypertextes
 
@@ -223,7 +219,7 @@ Exemple :
     <h2>Les albums</h2>
 </section>
 
-Cette organisation répond directement à la consigne de proposer une barre de navigation et des sections correspondant aux catégories documentaires du site. NTD 214 -S2-HTML5.docx
+Cette organisation répond directement à la consigne de proposer une barre de navigation et des sections correspondant aux catégories documentaires du site. 
 
 ### 2.5. Les images et leur description documentaire
 
@@ -296,7 +292,6 @@ Elle donne une signification fonctionnelle au groupe de liens : il s’agit d’
 
 Dans la conception d’un site documentaire, cette qualification aide à distinguer les différentes composantes de la page.
 
-⸻
 
 ## 3. Les métadonnées, l’encodage et la qualité documentaire
 
@@ -365,9 +360,8 @@ musique-online/
 
 Cette organisation facilite la maintenance, la compréhension et la transmission du projet.
 
-Le cours demande explicitement que les règles de nommage et l’arborescence soient cohérentes. NTD 214 -S2-HTML5.docx
+Le cours demande explicitement que les règles de nommage et l’arborescence soient cohérentes.
 
-⸻
 
 ## 4. Le travail à réaliser : le projet « Musique Online »
 
@@ -379,7 +373,7 @@ Le travail de modélisation du système d’information documentaire est poursui
 
 L’objectif est de transformer les besoins identifiés et les informations modélisées en une interface HTML5 permettant de consulter les ressources documentaires.
 
-Les éléments présentés peuvent notamment être des artistes, des labels et des albums. Les catégories doivent correspondre à une organisation documentaire explicite. NTD 214 -S2-HTML5.docx
+Les éléments présentés peuvent notamment être des artistes, des labels et des albums. Les catégories doivent correspondre à une organisation documentaire explicite. 
 
 ### 4.2. Les exigences fonctionnelles du site
 
@@ -417,7 +411,7 @@ Par exemple, une section consacrée aux artistes doit regrouper les notices d’
 
 Les liens doivent également refléter les relations entre les ressources : un album peut renvoyer vers son artiste et son label.
 
-Le choix entre une page unique et plusieurs pages est laissé à votre appréciation, à condition de respecter les exigences fonctionnelles du cahier des charges. NTD 214 -S2-HTML5.docx
+Le choix entre une page unique et plusieurs pages est laissé à votre appréciation, à condition de respecter les exigences fonctionnelles du cahier des charges. 
 
 ### 4.4. Les livrables attendus
 
@@ -459,7 +453,7 @@ Le cours évoque également la possibilité de publier la page sur GitHub.
 
 Cette publication constitue un bonus. Elle n’est pas présentée comme une obligation pour le rendu initial.
 
-La séance de régulation suivante doit notamment permettre de revenir sur la mise en ligne du site. NTD 214 -S2-HTML5.docx
+La séance de régulation suivante doit notamment permettre de revenir sur la mise en ligne du site.
 
 ### 4.5. Les modalités de travail
 
@@ -469,9 +463,7 @@ Le cours précise toutefois que les personnes travaillant de manière autonome o
 
 La conception doit être envisagée comme un prolongement du travail de modélisation du système d’information documentaire. Les choix réalisés en HTML doivent donc correspondre aux besoins fonctionnels du projet.
 
-Enfin, l’usage de l’intelligence artificielle est possible pour obtenir des explications, comprendre une notion ou s’aider dans la réalisation. Le cours demande cependant de ne pas déléguer intégralement le travail d’apprentissage à l’IA et de documenter son utilisation dans le rapport.  
-
-⸻
+Enfin, l’usage de l’intelligence artificielle est possible pour obtenir des explications, comprendre une notion ou s’aider dans la réalisation. Le cours demande cependant de ne pas déléguer intégralement le travail d’apprentissage à l’IA et de documenter son utilisation dans le rapport.
 
 ## 5. Les dates et le calendrier de travail
 
@@ -549,8 +541,6 @@ Livraison
 * Les choix techniques sont expliqués.
 * Les éventuels prompts d’IA et leur évaluation sont documentés.
 * La publication sur GitHub, si elle est réalisée, est considérée comme un bonus.
-
-⸻
 
 ## 7. Les cinq notions à retenir en priorité
 
