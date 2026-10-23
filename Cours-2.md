@@ -12,15 +12,15 @@ HTML signifie **HyperText Markup Language**. C’est un langage de balisage qui 
 
 Le HTML repose sur trois principes essentiels :
 
-    * La structuration du contenu : les balises permettent de distinguer les titres, les paragraphes, les sections, les listes, les liens et les images.
-    * La qualification documentaire : les balises donnent une signification aux éléments du document et permettent d’en identifier la nature.
-    * L’hypertextualité : les liens permettent de relier les ressources entre elles et d’organiser la navigation dans un ensemble documentaire.
+    - La structuration du contenu : les balises permettent de distinguer les titres, les paragraphes, les sections, les listes, les liens et les images.
+    - La qualification documentaire : les balises donnent une signification aux éléments du document et permettent d’en identifier la nature.
+    - L’hypertextualité : les liens permettent de relier les ressources entre elles et d’organiser la navigation dans un ensemble documentaire.
 
 Le cours insiste sur une distinction fondamentale : le HTML sert à structurer et à qualifier le contenu, tandis que le CSS permet de définir sa présentation visuelle.
 
-Par exemple, la balise <em> exprime une emphase. Le navigateur peut la restituer en italique, mais cette présentation peut être modifiée par une feuille de style.
+Par exemple, la balise ``` HTML<em>``` exprime une emphase. Le navigateur peut la restituer en italique, mais cette présentation peut être modifiée par une feuille de style.
 
-L’enjeu est donc de privilégier la signification des éléments plutôt que leur seule apparence visuelle. NTD 214 -S2-HTML5.docx
+L’enjeu est donc de privilégier la signification des éléments plutôt que leur seule apparence visuelle.
 
 ### 1.2. Distinguer HTML, CSS et contenu
 
