@@ -46,19 +46,21 @@ Exemple :
 ```
 Dans cet exemple :
 
-* ```HTML<p>``` ouvre le paragraphe ;
+* ```<p>``` ouvre le paragraphe ;
 * le texte constitue le contenu ;
-* ```HTML</p>``` ferme le paragraphe.
+* ```</p>``` ferme le paragraphe.
 
-La plupart des éléments HTML possèdent une balise ouvrante et une balise fermante. Certaines balises, comme <img> et <meta>, n’ont pas de balise fermante en HTML5.
+La plupart des éléments HTML possèdent une balise ouvrante et une balise fermante. Certaines balises, comme ```<img>``` et ```<meta>```, n’ont pas de balise fermante en HTML5.
 
 Les balises peuvent également comporter des attributs, qui précisent les propriétés d’un élément.
 
-Exemple :
+_Exemple :_
 
+```HTML
 <html lang="fr">
+```
 
-L’attribut lang indique la langue principale du document.
+L’attribut ```lang``` indique la langue principale du document.
 
 Les noms de balises et les attributs doivent respecter la syntaxe du langage. Il ne s’agit pas de termes que l’on peut inventer librement.
 
