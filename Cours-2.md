@@ -18,7 +18,7 @@ Le HTML repose sur trois principes essentiels :
 
 Le cours insiste sur une distinction fondamentale : le HTML sert à structurer et à qualifier le contenu, tandis que le CSS permet de définir sa présentation visuelle.
 
-Par exemple, la balise ```HTML <em> ``` exprime une emphase. Le navigateur peut la restituer en italique, mais cette présentation peut être modifiée par une feuille de style.
+Par exemple, la balise ```<em> ``` exprime une emphase. Le navigateur peut la restituer en italique, mais cette présentation peut être modifiée par une feuille de style.
 
 L’enjeu est donc de privilégier la signification des éléments plutôt que leur seule apparence visuelle.
 
