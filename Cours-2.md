@@ -32,9 +32,9 @@ CSS	Présentation visuelle et mise en page	Couleurs, typographie, espacements
 Contenus	Informations présentées au lecteur	Textes, descriptions, notices documentaires
 Métadonnées	Informations décrivant le document	Titre de la page, encodage des caractères
 
-Le cours introduit également les principes du responsive design : une page doit pouvoir s’adapter à différents supports, notamment les écrans d’ordinateur et les téléphones.
+Le cours introduit également les principes du **responsive design** : une page doit pouvoir s’adapter à différents supports, notamment les écrans d’ordinateur et les téléphones.
 
-Cette adaptation mobilise les feuilles de style et la structure du document. NTD 214 -S2-HTML5.docx
+Cette adaptation mobilise les feuilles de style et la structure du document.
 
 ### 1.3. Comprendre la logique des balises
 
