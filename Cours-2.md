@@ -217,9 +217,9 @@ Dans le cadre du projet, les liens doivent permettre de naviguer entre les diff�
 
 Vous pouvez notamment :
 
-* relier un artiste à sa page officielle ;
-* relier un album à la page de l’artiste correspondant ;
-* relier un artiste au label auquel il est associé ;
+* relier l'artiste à sa page officielle ;
+* relier l'album à la page de l’artiste correspondant ;
+* relier l'artiste au label auquel il est associé ;
 * proposer une navigation interne vers une section de la page.
 
 Pour créer une navigation interne, on peut utiliser l’attribut ```id``` sur une section et l’attribut ```href``` sur le lien correspondant.
@@ -278,7 +278,7 @@ Exemple :
 
 Le texte alternatif doit décrire l’information pertinente portée par l’image. Il contribue notamment à l’accessibilité du document.
 
-Point de vigilance : une image visible dans la page ne suffit pas à satisfaire la consigne documentaire. Il faut également renseigner son texte alternatif, sa légende et les informations nécessaires à l’identification de sa source.
+Point de vigilance : une image visible dans la page ne suffit pas à satisfaire la consigne documentaire. Il faut également renseigner son texte alternatif avec l'attribut ```alt```, sa légende et les informations nécessaires à l’identification de sa source.
 
 ### 2.6. Les listes
 
@@ -286,7 +286,7 @@ Les listes permettent d’organiser des informations de manière structurée.
 ```HTML
 Balise	Fonction
 <ul>	Crée une liste non ordonnée.
-<ol>	Crée une liste ordonnée avec son attribut optionnel type 
+<ol>	Crée une liste ordonnée avec son attribut optionnel ```type``` (renseigné avec 1,a,A,I,i...)
 <li>	Définit un élément de liste.
 ```
 
