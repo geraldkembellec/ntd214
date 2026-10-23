@@ -154,7 +154,7 @@ Les six niveaux de titres sont un moyen de représenter la hiérarchie d’un do
     <h2>Les labels</h2>
     <p>Présentation des maisons de production.</p>
 </section>
-<main>
+</main>
 ```
 
 La balise ```<section>``` permet de regrouper des contenus qui forment un ensemble cohérent. 
