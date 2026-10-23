@@ -132,7 +132,7 @@ Les titres servent à hiérarchiser l’information, les sections et le conteneu
 | ```<h4>``` | 	Titre de niveau inférieur | 
 | ```<h5>``` |  Titre de niveau inférieur | 
 | ```<h6>``` | 	Sixième niveau de titre | 
-| ```<main>``` | 
+| ```<main>``` | Contenu principal, ça se distingue des éléments de confort visuel ou de la publicité contextuelle | 
 | ```<section>``` | Regroupe un ensemble de contenu thématiquement cohérent, nécessite un titre de niveau inférieur | 
 
 Le cours présente les six niveaux de titres comme un moyen de représenter la hiérarchie d’un document.
