@@ -158,7 +158,7 @@ Exemple :
 <main>
 ```
 
-La balise <section> permet de regrouper des contenus qui forment un ensemble cohérent. 
+La balise ```<section>``` permet de regrouper des contenus qui forment un ensemble cohérent. 
 Elle ne produit pas, à elle seule, un effet visuel particulier.
 
 Principe à respecter : la hiérarchie des titres doit correspondre à l’organisation intellectuelle du contenu. Il ne faut pas choisir un niveau de titre uniquement pour obtenir une taille de police particulière.
@@ -174,6 +174,7 @@ Balise	Fonction
 <abbr>	Identifie une abréviation.
 <code>	Identifie un fragment de code informatique.
 ```
+
 Exemple :
 ```HTML
 <p>
@@ -274,6 +275,7 @@ Exemple :
     </figcaption>
 </figure>
 ```
+
 Le texte alternatif doit décrire l’information pertinente portée par l’image. Il contribue notamment à l’accessibilité du document.
 
 Point de vigilance : une image visible dans la page ne suffit pas à satisfaire la consigne documentaire. Il faut également renseigner son texte alternatif, sa légende et les informations nécessaires à l’identification de sa source.
@@ -284,7 +286,7 @@ Les listes permettent d’organiser des informations de manière structurée.
 ```HTML
 Balise	Fonction
 <ul>	Crée une liste non ordonnée.
-<ol>	Crée une liste ordonnée.
+<ol>	Crée une liste ordonnée avec son attribut optionnel type 
 <li>	Définit un élément de liste.
 ```
 
