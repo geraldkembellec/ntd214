@@ -383,7 +383,7 @@ Exemples :
 Le plan de classement organise les répertoires et les fichiers selon une architecture logique.
 
 Exemple d’arborescence :
-.
+```text
 | musique-online/
 ├── index.html
 ├── style.css
@@ -391,7 +391,7 @@ Exemple d’arborescence :
     ├── artiste-exemple.jpg
     ├── album-exemple.jpg
     └── label-exemple.jpg
-
+```
 Cette organisation facilite la maintenance, la compréhension et la transmission du projet.
 
 Le cours demande explicitement que les règles de nommage et l’arborescence soient cohérentes.
