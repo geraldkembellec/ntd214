@@ -26,13 +26,14 @@ L’enjeu est donc de privilégier la signification des éléments plutôt que l
 
 Une page Web articule plusieurs composants complémentaires.
 
-Composant	Fonction	Exemple
-HTML5	Structure et qualification du contenu	Titres, paragraphes, liens, images
-CSS	Présentation visuelle et mise en page	Couleurs, typographie, espacements
-Contenus	Informations présentées au lecteur	Textes, descriptions, notices documentaires
-Métadonnées	Informations décrivant le document	Titre de la page, encodage des caractères
+| Composant | Fonction | Exemple |
+| --- | --- | --- |
+| HTML5 | Structure et qualification du contenu | Titres, paragraphes, liens, images |
+| CSS	| Présentation visuelle et mise en page	| Couleurs, typographie, espacements |
+| Contenus |	Informations présentées au lecteur	| Textes, descriptions, notices documentaires |
+| Métadonnées |	Informations décrivant le document |	Titre de la page, encodage des caractères
 
-Le cours introduit également les principes du **responsive design** : une page doit pouvoir s’adapter à différents supports, notamment les écrans d’ordinateur et les téléphones.
+Le cours introduit également les principes du _responsive design_ : une page doit pouvoir s’adapter à différents supports, notamment les écrans d’ordinateur et les téléphones.
 
 Cette adaptation mobilise les feuilles de style et la structure du document.
 
