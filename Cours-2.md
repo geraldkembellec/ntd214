@@ -111,9 +111,11 @@ Exemple de structure minimale :
     <p>Découvrez les artistes, les labels et les albums.</p>
 </body>
 </html>
-```HTML
+```
 
-À retenir : le <head> contient des informations descriptives et techniques ; le <body> contient les éléments qui constituent le contenu de la page. Le titre défini dans <title> est distinct du titre principal affiché dans la page.
+À retenir : le ```<head>``` contient des informations descriptives et techniques ; 
+le ```<body>``` contient les éléments qui constituent le contenu de la page. 
+Le titre défini dans ```<title>``` est distinct du titre principal affiché dans la page.
 
 ### 2.2. Les titres et les sections
 
@@ -182,6 +184,7 @@ Exemple :
     </abbr>.
 </p>
 ```
+
 La distinction entre ```<strong>``` et ```<em>``` est importante : ces balises qualifient le contenu, elles ne servent pas simplement à obtenir du gras ou de l’italique.
 
 Le cours insiste sur le fait que les balises doivent être utilisées à bon escient, en fonction de la signification du texte.
@@ -193,6 +196,7 @@ La balise ```<a>``` permet de créer un lien vers une autre ressource.
 Son attribut ```href``` indique la destination du lien.
 
 Exemple :
+
 ```HTML
 <p>
     Consultez la
@@ -201,6 +205,7 @@ Exemple :
     </a>.
 </p>
 ```
+
 Dans le cadre du projet, les liens doivent permettre de naviguer entre les différentes parties du site et de consulter des ressources externes pertinentes.
 
 Vous pouvez notamment :
@@ -210,9 +215,10 @@ Vous pouvez notamment :
 * relier un artiste au label auquel il est associé ;
 * proposer une navigation interne vers une section de la page.
 
-Pour créer une navigation interne, on peut utiliser l’attribut id sur une section et l’attribut href sur le lien correspondant.
+Pour créer une navigation interne, on peut utiliser l’attribut ```id``` sur une section et l’attribut ```href``` sur le lien correspondant.
 
 Exemple :
+
 ```HTML
 <nav>
     <a href="#artistes">Artistes</a>
@@ -229,6 +235,7 @@ Exemple :
     <h2>Les albums</h2>
 </section>
 ```
+
 Cette organisation répond directement à la consigne de proposer une barre de navigation et des sections correspondant aux catégories documentaires du site. 
 
 ### 2.5. Les images et leur description documentaire
@@ -238,6 +245,7 @@ Le cours demande d’intégrer au minimum une image libre de droits par article,
 Les principaux éléments à connaître sont les suivants :
 
 Élément	Fonction
+
 ```HTML
 <img>	Insère une image.
 src	Indique l’emplacement de l’image.
@@ -272,9 +280,11 @@ Balise	Fonction
 <ul>	Crée une liste non ordonnée.
 <ol>	Crée une liste ordonnée.
 <li>	Définit un élément de liste.
+```
 
 Exemple :
 
+```HTML
 <h2>Les genres musicaux</h2>
 <ul>
     <li>Rock</li>
@@ -282,16 +292,18 @@ Exemple :
     <li>Musique électronique</li>
 </ul>
 ```
+
 Pour une liste dont l’ordre est significatif, on utilise plutôt <ol>.
 
 Les listes facilitent la lecture et permettent de présenter les informations selon une structure explicite.
 
 ### 2.7. Les balises de navigation et les éléments sémantiques
-```HTML
-La balise <nav> sert à regrouper des liens de navigation.
+
+La balise ```<nav>``` sert à regrouper des liens de navigation.
 
 Exemple :
 
+```HTML
 <nav>
     <ul>
         <li><a href="#artistes">Artistes</a></li>
@@ -300,6 +312,7 @@ Exemple :
     </ul>
 </nav>
 ```
+
 Elle donne une signification fonctionnelle au groupe de liens : il s’agit d’un dispositif de navigation.
 
 Dans la conception d’un site documentaire, cette qualification aide à distinguer les différentes composantes de la page.
@@ -315,13 +328,14 @@ Elles sont notamment placées dans la section <head>.
 
 La séance insiste sur la nécessité de distinguer ce qui est visible dans le navigateur des informations qui sont interprétées par les outils logiciels.
 
-Le titre du document, la langue et l’encodage des caractères font partie des éléments importants de cette description. NTD 214 -S2-HTML5.docx
+Le titre du document, la langue et l’encodage des caractères font partie des éléments importants de cette description.
 
 ### 3.2. L’encodage des caractères
 
 L’encodage détermine la manière dont les caractères sont représentés dans le document.
 
 La déclaration suivante doit être présente dans l’en-tête :
+
 ```HTML
 <meta charset="UTF-8">
 ```
@@ -340,7 +354,7 @@ Le validateur permet notamment de détecter :
 * des attributs non conformes ;
 * des problèmes de structure du document.
 
-L’objectif est de produire une page correctement interprétable par les navigateurs. NTD 214 -S2-HTML5.docx
+L’objectif est de produire une page correctement interprétable par les navigateurs.
 
 La validation doit être considérée comme une étape du travail, et non comme une vérification facultative réalisée uniquement à la fin.
 
@@ -373,7 +387,6 @@ musique-online/
 Cette organisation facilite la maintenance, la compréhension et la transmission du projet.
 
 Le cours demande explicitement que les règles de nommage et l’arborescence soient cohérentes.
-
 
 ## 4. Le travail à réaliser : le projet « Musique Online »
 
