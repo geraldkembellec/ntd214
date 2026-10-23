@@ -42,9 +42,11 @@ Cette adaptation mobilise les feuilles de style et la structure du document.
 Une balise HTML est généralement délimitée par des chevrons.
 
 Exemple :
+
 ```HTML
 <p>Voici un paragraphe de texte.</p>
 ```
+
 Dans cet exemple :
 
 * ```<p>``` ouvre le paragraphe ;
@@ -119,18 +121,19 @@ Le titre défini dans ```<title>``` est distinct du titre principal affiché dan
 
 ### 2.2. Les titres et les sections
 
-Les titres servent à hiérarchiser l’information.
+Les titres servent à hiérarchiser l’information, les sections et le conteneur principal à l'encadrer. 
 
-Balise	Fonction
-```HTML
-<h1>	Titre principal de la page
-<h2>	Titre d’une section principale
-<h3>	Titre d’une sous-section
-<h4>	Titre de niveau inférieur
-<h5>	Titre de niveau inférieur
-<h6>	Sixième niveau de titre
-<section>	Regroupe un ensemble de contenu thématiquement cohérent
-```
+
+| Balise | Fonction |
+| --- | --- |
+| ```<h1>``` | Titre principal de la page | 
+| ```<h2>``` | Titre d’une section principale | 
+| ```<h3>``` | Titre d’une sous-section | 
+| ```<h4>``` | 	Titre de niveau inférieur | 
+| ```<h5>``` |  Titre de niveau inférieur | 
+| ```<h6>``` | 	Sixième niveau de titre | 
+| ```<main>``` | 
+| ```<section>``` | Regroupe un ensemble de contenu thématiquement cohérent, nécessite un titre de niveau inférieur | 
 
 Le cours présente les six niveaux de titres comme un moyen de représenter la hiérarchie d’un document.
 
@@ -139,6 +142,7 @@ Exemple :
 
 ```HTML
 <h1>Musique en ligne</h1>
+<main>
 <section>
     <h2>Les artistes</h2>
     <p>Présentation des artistes référencés.</p>
@@ -151,9 +155,11 @@ Exemple :
     <h2>Les labels</h2>
     <p>Présentation des maisons de production.</p>
 </section>
-```HTML
+<main>
+```
 
-La balise <section> permet de regrouper des contenus qui forment un ensemble cohérent. Elle ne produit pas, à elle seule, un effet visuel particulier.
+La balise <section> permet de regrouper des contenus qui forment un ensemble cohérent. 
+Elle ne produit pas, à elle seule, un effet visuel particulier.
 
 Principe à respecter : la hiérarchie des titres doit correspondre à l’organisation intellectuelle du contenu. Il ne faut pas choisir un niveau de titre uniquement pour obtenir une taille de police particulière.
 
