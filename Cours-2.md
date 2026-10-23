@@ -397,7 +397,7 @@ Le cours demande explicitement que les règles de nommage et l’arborescence so
 
 Le projet prolonge l’étude de cas commencée avec M. Obadia autour d’une plateforme de musique en ligne.
 
-Le travail de modélisation du système d’information documentaire est poursuivi par la réalisation de sa couche de présentation Web.
+Le travail de modélisation du système d’information documentaire est poursuivi par la réalisation de sa couche de présentation Web. Nous nous plaçons dans le rôle du chargé de réalisation de l'interface client.
 
 L’objectif est de transformer les besoins identifiés et les informations modélisées en une interface HTML5 permettant de consulter les ressources documentaires.
 
@@ -406,18 +406,18 @@ Les éléments présentés peuvent notamment être des artistes, des labels et d
 ### 4.2. Les exigences fonctionnelles du site
 
 Le site doit respecter les consignes suivantes.
-
-Exigence	Travail attendu
-Contenus	Présenter au minimum 10 éléments documentaires.
-Typologie	Organiser les éléments par catégories : artistes, labels, albums, etc.
-Structure	Prévoir un titre principal et des titres secondaires.
-Navigation	Ajouter une barre de navigation vers les différentes sections.
-Liens	Créer des liens internes et externes pertinents.
-Images	Intégrer au minimum une image libre de droits par article.
-Accessibilité	Ajouter un texte alternatif aux images.
-Légendes	Prévoir une légende et un titre pour les images.
-Encodage	Déclarer correctement l’encodage des caractères.
-Conformité	Tester le document avec le validateur HTML du W3C.
+| Exigence | Travail attendu |
+| --- | --- |
+| Contenus	| Présenter au minimum 10 éléments documentaires. | 
+| Typologie	| Organiser les éléments par catégories : artistes, labels, albums, etc.| 
+| Structure	| Prévoir un titre principal et des titres secondaires.| 
+| Navigation | Ajouter une barre de navigation vers les différentes sections.| 
+| Liens | Créer des liens internes et externes pertinents.| 
+| Images | Intégrer au minimum une image libre de droits par article.| 
+| Accessibilité	| Ajouter un texte alternatif et un titre aux images.| 
+| Légendes | Prévoir une légende et un titre pour les images.| 
+| Encodage	| Déclarer correctement l’encodage des caractères.| 
+| Conformité | Tester le document avec le validateur HTML du W3C.| 
 
 Ces exigences correspondent aux consignes formulées pendant la séance.  
 
