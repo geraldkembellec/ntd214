@@ -299,7 +299,7 @@ Exemple :
 </ul>
 ```
 
-Pour une liste dont l’ordre est significatif, on utilise plutôt <ol>.
+Pour une liste dont l’ordre est significatif, on utilise plutôt ```<ol>```.
 
 Les listes facilitent la lecture et permettent de présenter les informations selon une structure explicite.
 
