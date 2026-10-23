@@ -16,7 +16,8 @@ HTML signifie **HyperText Markup Language**. C’est un langage de balisage qui 
     - La qualification documentaire : les balises donnent une signification aux éléments du document et permettent d’en identifier la nature.
     - L’hypertextualité : les liens permettent de relier les ressources entre elles et d’organiser la navigation dans un ensemble documentaire.
 
-Le cours insiste sur une distinction fondamentale : le HTML sert à structurer et à qualifier le contenu, tandis que le CSS permet de définir sa présentation visuelle.
+#### Distinction fondamentale : 
+le HTML sert à structurer et à qualifier le contenu, tandis que le CSS permet de définir sa présentation visuelle.
 
 Par exemple, la balise ```<em> ``` exprime une emphase. Le navigateur peut la restituer en italique, mais cette présentation peut être modifiée par une feuille de style.
 
@@ -495,33 +496,28 @@ Enfin, l’usage de l’intelligence artificielle est possible pour obtenir des 
 
 ## 5. Les dates et le calendrier de travail
 
+### Semaine du 26 octobre 2026	
+Poursuite du travail en autonomie et préparation des livrables.	Période de travail déduite du calendrier.
+Régulation consacrée notamment à la mise en ligne sur GitHub.	
 
-Date ou période	Événement ou travail	Statut
-20 octobre 2026	Séance consacrée à la présentation HTML5, à la structuration documentaire et au cahier des charges du site.	Séance réalisée.
-1er novembre 2026	Échéance initialement évoquée pour le travail de modélisation avec M. Obadia.	Échéance initiale mentionnée dans l’échange.
-Semaine du 26 octobre 2026	Poursuite du travail en autonomie et préparation des livrables.	Période de travail déduite du calendrier.
-12 novembre 2026	Date de rendu annoncée pour le travail HTML5.	Échéance annoncée pendant le cours.
-Semaine suivant la séance	Régulation consacrée notamment à la mise en ligne sur GitHub.	Séance annoncée ; date exacte non précisée.
+### 12 novembre 2026	
+Date de rendu annoncée pour le travail HTML5.	Échéance annoncée pendant le cours.
 
-Attention concernant les échéances : la transcription mentionne une discussion sur le report éventuel du travail de modélisation de M. Obadia, initialement prévu pour le 1er novembre et susceptible d’être repoussé à la mi-novembre. Le report n’est toutefois pas confirmé explicitement dans l’extrait disponible. Il convient donc de vérifier cette date auprès de l’enseignant concerné.
-
-En revanche, le 12 novembre 2026 est bien la date annoncée pour le rendu du travail HTML5.  
-
-Proposition de rétroplanning
+### Proposition de rétroplanning
 
 Pour organiser le travail jusqu’au 12 novembre, voici une proposition opérationnelle.
 
-Étape	Travail à effectuer
-1. Cadrage	Relire le cahier des charges et confirmer les catégories documentaires retenues.
-2. Collecte	Sélectionner les 10 éléments au minimum, réunir les textes, les liens et les images.
-3. Architecture	Définir l’arborescence, les noms de fichiers et l’organisation des sections.
-4. Réalisation	Écrire le HTML5, ajouter les liens et intégrer les images.
-5. Mise en forme	Créer la feuille CSS et vérifier la lisibilité de la page.
-6. Contrôle	Vérifier les liens, l’encodage, les textes alternatifs et la validité HTML.
-7. Documentation	Rédiger le document de synthèse d’une page et préciser les éventuels usages de l’IA.
-8. Livraison	Constituer l’archive ZIP et vérifier que tous les fichiers nécessaires sont présents.
+Étape et travail à effectuer
+1. Cadrage	: Relire le cahier des charges et confirmer les catégories documentaires retenues.
+2. Collecte	: Sélectionner les 10 éléments au minimum, réunir les textes, les liens et les images.
+3. Architecture	: Définir l’arborescence, les noms de fichiers et l’organisation des sections.
+4. Réalisation : Écrire le HTML5, ajouter les liens et intégrer les images.
+5. Mise en forme : Créer la feuille CSS et vérifier la lisibilité de la page.
+6. Contrôle	: Vérifier les liens, l’encodage, les textes alternatifs et la validité HTML.
+7. Documentation : Rédiger le document de synthèse d’une page et préciser les éventuels usages de l’IA.
+8. Livraison : Constituer l’archive ZIP et vérifier que tous les fichiers nécessaires sont présents.
 
-Ce rétroplanning est une proposition d’organisation du travail, et non un calendrier imposé dans la transcription.
+Ce rétroplanning est une proposition d’organisation du travail, et non un calendrier imposé.
 
 ## 6. La checklist finale avant le rendu
 
