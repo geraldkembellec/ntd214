@@ -126,7 +126,7 @@ Les titres servent à hiérarchiser l’information, les sections et le conteneu
 
 | Balise | Fonction |
 | --- | --- |
-| ```<h1>``` | Titre principal de la page | 
+| ```<h1>``` | Titre principal de la page, attention un seul par page est autorisé | 
 | ```<h2>``` | Titre d’une section principale | 
 | ```<h3>``` | Titre d’une sous-section | 
 | ```<h4>``` | 	Titre de niveau inférieur | 
