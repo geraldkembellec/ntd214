@@ -328,9 +328,9 @@ Dans la conception d’un site documentaire, cette qualification aide à disting
 
 Les métadonnées décrivent le document et apportent des informations utiles à son traitement.
 
-Elles sont notamment placées dans la section <head>.
+Elles sont notamment placées dans la section ```<head>```.
 
-La séance insiste sur la nécessité de distinguer ce qui est visible dans le navigateur des informations qui sont interprétées par les outils logiciels.
+Il faut distinguer ce qui est visible dans le navigateur (le contenu dans le ```<body>```) des informations qui sont interprétées par les outils logiciels (les métadonnées dans le ```<head>```).
 
 Le titre du document, la langue et l’encodage des caractères font partie des éléments importants de cette description.
 
@@ -342,9 +342,9 @@ La déclaration suivante doit être présente dans l’en-tête :
 ```HTML
 <meta charset="UTF-8">
 ```
-Elle permet notamment de gérer correctement les caractères accentués et les caractères spéciaux utilisés dans les contenus en français.
+Elle permet notamment de gérer correctement les caractères accentués et les caractères spéciaux utilisés dans les contenus en français ou ceux de n'importe quel langage.
 
-Un encodage cohérent est indispensable pour éviter les problèmes d’affichage du texte.
+Un encodage cohérent est indispensable pour éviter les problèmes d’affichage du texte, la [norme utf-8](https://fr.wikipedia.org/wiki/UTF-8) est l'idéal.
 
 ### 3.3. La validation du code HTML
 
@@ -365,11 +365,11 @@ La validation doit être considérée comme une étape du travail, et non comme 
 
 Le projet ne porte pas uniquement sur l’écriture du HTML. Il comprend également une dimension d’organisation documentaire.
 
-Deux notions doivent être maîtrisées :
+#### Deux notions doivent être maîtrisées :
 
-Les règles de nommage définissent la manière de nommer les fichiers de façon cohérente.
+Les règles de nommage définissent la manière de nommer les fichiers de façon cohérente. Par exemple le [_kebab case_](https://developer.mozilla.org/fr/docs/Glossary/Kebab_case) met tous les caractères en minuscule, sans accents, sans espaces (qui sont remplacés par des tirets, ce qui donne une forme de "brochette" aux mots).
 
-Exemples :
+#### Exemples :
 
 * index.html ;
 * style.css ;
