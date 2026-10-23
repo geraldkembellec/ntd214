@@ -88,16 +88,18 @@ Les balises ci-dessous constituent une fiche de révision organisée par fonctio
 
 Une page HTML5 doit comporter une structure générale cohérente.
 
-Élément	Fonction
+```HTML
 <!DOCTYPE html>	Déclare le type de document HTML5.
 <html lang="fr">	Délimite le document et indique sa langue.
 <head>	Contient les métadonnées du document.
 <meta charset="UTF-8">	Définit l’encodage des caractères.
 <title>	Définit le titre du document, notamment affiché dans l’onglet du navigateur.
 <body>	Contient le contenu principal présenté à l’utilisateur.
+```
 
 Exemple de structure minimale :
 
+```HTML
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -109,6 +111,7 @@ Exemple de structure minimale :
     <p>Découvrez les artistes, les labels et les albums.</p>
 </body>
 </html>
+```HTML
 
 À retenir : le <head> contient des informations descriptives et techniques ; le <body> contient les éléments qui constituent le contenu de la page. Le titre défini dans <title> est distinct du titre principal affiché dans la page.
 
@@ -117,6 +120,7 @@ Exemple de structure minimale :
 Les titres servent à hiérarchiser l’information.
 
 Balise	Fonction
+```HTML
 <h1>	Titre principal de la page
 <h2>	Titre d’une section principale
 <h3>	Titre d’une sous-section
@@ -124,11 +128,14 @@ Balise	Fonction
 <h5>	Titre de niveau inférieur
 <h6>	Sixième niveau de titre
 <section>	Regroupe un ensemble de contenu thématiquement cohérent
+```
 
 Le cours présente les six niveaux de titres comme un moyen de représenter la hiérarchie d’un document.
 
 Exemple :
 
+
+```HTML
 <h1>Musique en ligne</h1>
 <section>
     <h2>Les artistes</h2>
@@ -142,6 +149,7 @@ Exemple :
     <h2>Les labels</h2>
     <p>Présentation des maisons de production.</p>
 </section>
+```HTML
 
 La balise <section> permet de regrouper des contenus qui forment un ensemble cohérent. Elle ne produit pas, à elle seule, un effet visuel particulier.
 
@@ -150,15 +158,16 @@ Principe à respecter : la hiérarchie des titres doit correspondre à l’organ
 ### 2.3. Les paragraphes et la qualification du texte
 
 Balise	Fonction
+```HTML
 <p>	Définit un paragraphe.
 <strong>	Signale une importance particulière.
 <em>	Marque une emphase.
 <mark>	Met en évidence un passage pertinent dans le contexte considéré.
 <abbr>	Identifie une abréviation.
 <code>	Identifie un fragment de code informatique.
-
+```
 Exemple :
-
+```HTML
 <p>
     Le <strong>HTML5</strong> permet de structurer
     les documents du Web.
@@ -172,26 +181,26 @@ Exemple :
         Cnam
     </abbr>.
 </p>
-
-La distinction entre <strong> et <em> est importante : ces balises qualifient le contenu, elles ne servent pas simplement à obtenir du gras ou de l’italique.
+```
+La distinction entre ```<strong>``` et ```<em>``` est importante : ces balises qualifient le contenu, elles ne servent pas simplement à obtenir du gras ou de l’italique.
 
 Le cours insiste sur le fait que les balises doivent être utilisées à bon escient, en fonction de la signification du texte.
 
 ### 2.4. Les liens hypertextes
 
-La balise <a> permet de créer un lien vers une autre ressource.
+La balise ```<a>``` permet de créer un lien vers une autre ressource.
 
-Son attribut href indique la destination du lien.
+Son attribut ```href``` indique la destination du lien.
 
 Exemple :
-
+```HTML
 <p>
     Consultez la
     <a href="https://fr.wikipedia.org/">
         Wikipédia
     </a>.
 </p>
-
+```
 Dans le cadre du projet, les liens doivent permettre de naviguer entre les différentes parties du site et de consulter des ressources externes pertinentes.
 
 Vous pouvez notamment :
@@ -204,7 +213,7 @@ Vous pouvez notamment :
 Pour créer une navigation interne, on peut utiliser l’attribut id sur une section et l’attribut href sur le lien correspondant.
 
 Exemple :
-
+```HTML
 <nav>
     <a href="#artistes">Artistes</a>
     <a href="#labels">Labels</a>
@@ -219,7 +228,7 @@ Exemple :
 <section id="albums">
     <h2>Les albums</h2>
 </section>
-
+```
 Cette organisation répond directement à la consigne de proposer une barre de navigation et des sections correspondant aux catégories documentaires du site. 
 
 ### 2.5. Les images et leur description documentaire
@@ -229,15 +238,17 @@ Le cours demande d’intégrer au minimum une image libre de droits par article,
 Les principaux éléments à connaître sont les suivants :
 
 Élément	Fonction
+```HTML
 <img>	Insère une image.
 src	Indique l’emplacement de l’image.
 alt	Fournit un texte alternatif à l’image.
 title	Peut fournir une information complémentaire associée à l’élément.
 <figure>	Regroupe un contenu autonome, par exemple une image et sa légende.
 <figcaption>	Fournit la légende du contenu placé dans <figure>.
+```
 
 Exemple :
-
+```HTML
 <figure>
     <img
         src="images/artiste-exemple.jpg"
@@ -248,7 +259,7 @@ Exemple :
         Portrait de l'artiste, source et crédit photographique.
     </figcaption>
 </figure>
-
+```
 Le texte alternatif doit décrire l’information pertinente portée par l’image. Il contribue notamment à l’accessibilité du document.
 
 Point de vigilance : une image visible dans la page ne suffit pas à satisfaire la consigne documentaire. Il faut également renseigner son texte alternatif, sa légende et les informations nécessaires à l’identification de sa source.
@@ -256,7 +267,7 @@ Point de vigilance : une image visible dans la page ne suffit pas à satisfaire 
 ### 2.6. Les listes
 
 Les listes permettent d’organiser des informations de manière structurée.
-
+```HTML
 Balise	Fonction
 <ul>	Crée une liste non ordonnée.
 <ol>	Crée une liste ordonnée.
@@ -270,13 +281,13 @@ Exemple :
     <li>Jazz</li>
     <li>Musique électronique</li>
 </ul>
-
+```
 Pour une liste dont l’ordre est significatif, on utilise plutôt <ol>.
 
 Les listes facilitent la lecture et permettent de présenter les informations selon une structure explicite.
 
 ### 2.7. Les balises de navigation et les éléments sémantiques
-
+```HTML
 La balise <nav> sert à regrouper des liens de navigation.
 
 Exemple :
@@ -288,7 +299,7 @@ Exemple :
         <li><a href="#albums">Albums</a></li>
     </ul>
 </nav>
-
+```
 Elle donne une signification fonctionnelle au groupe de liens : il s’agit d’un dispositif de navigation.
 
 Dans la conception d’un site documentaire, cette qualification aide à distinguer les différentes composantes de la page.
@@ -311,9 +322,9 @@ Le titre du document, la langue et l’encodage des caractères font partie des 
 L’encodage détermine la manière dont les caractères sont représentés dans le document.
 
 La déclaration suivante doit être présente dans l’en-tête :
-
+```HTML
 <meta charset="UTF-8">
-
+```
 Elle permet notamment de gérer correctement les caractères accentués et les caractères spéciaux utilisés dans les contenus en français.
 
 Un encodage cohérent est indispensable pour éviter les problèmes d’affichage du texte.
