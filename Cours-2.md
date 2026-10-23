@@ -1,5 +1,4 @@
 # NTD 214 — Synthèse du cours HTML5 du 20 oct. 2026
-
 ## Principes fondamentaux, balises HTML, consignes de réalisation et calendrier
 
 Cette synthèse reprend les notions présentées pendant la séance du 20 octobre 2026. Elle distingue les principes de structuration documentaire, les principales balises HTML abordées, les exigences du travail à réaliser et les échéances évoquées pendant le cours.
@@ -7,16 +6,15 @@ Cette synthèse reprend les notions présentées pendant la séance du 20 octobr
 L’objectif général est de comprendre comment concevoir une page Web structurée, accessible et exploitable par les navigateurs, les moteurs d’indexation et les outils de traitement de l’information. Le travail s’inscrit dans la continuité de l’étude de cas sur une plateforme de musique en ligne, menée avec M. Obadia dans le cadre de l’UE NTD 214.
 
 ## 1. Les principes fondamentaux du HTML5
-
 ### 1.1. Comprendre la fonction du HTML
 
-HTML signifie HyperText Markup Language. C’est un langage de balisage qui permet de structurer un document destiné à être interprété par un navigateur Web.
+HTML signifie **HyperText Markup Language**. C’est un langage de balisage qui permet de structurer un document destiné à être interprété par un navigateur Web.
 
 Le HTML repose sur trois principes essentiels :
 
-* La structuration du contenu : les balises permettent de distinguer les titres, les paragraphes, les sections, les listes, les liens et les images.
-* La qualification documentaire : les balises donnent une signification aux éléments du document et permettent d’en identifier la nature.
-* L’hypertextualité : les liens permettent de relier les ressources entre elles et d’organiser la navigation dans un ensemble documentaire.
+    * La structuration du contenu : les balises permettent de distinguer les titres, les paragraphes, les sections, les listes, les liens et les images.
+    * La qualification documentaire : les balises donnent une signification aux éléments du document et permettent d’en identifier la nature.
+    * L’hypertextualité : les liens permettent de relier les ressources entre elles et d’organiser la navigation dans un ensemble documentaire.
 
 Le cours insiste sur une distinction fondamentale : le HTML sert à structurer et à qualifier le contenu, tandis que le CSS permet de définir sa présentation visuelle.
 
