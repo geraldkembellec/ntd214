@@ -425,11 +425,11 @@ Ces exigences correspondent aux consignes formulées pendant la séance.
 
 Le site peut être réalisé de deux manières.
 
-Option A : une page unique
+#### Option A : une page unique
 
 Toutes les catégories sont présentées sur une même page. Une barre de navigation permet de se déplacer vers les différentes sections.
 
-Option B : plusieurs pages
+#### Option B : plusieurs pages
 
 Les contenus sont répartis sur plusieurs pages, reliées entre elles par des liens hypertextes.
 
@@ -445,7 +445,7 @@ Le choix entre une page unique et plusieurs pages est laissé à votre apprécia
 
 Le cours prévoit deux livrables principaux, auxquels s’ajoute une possibilité facultative de publication en ligne.
 
-Livrable 1 — Le site Web au format HTML5
+#### Livrable 1 — Le site Web au format HTML5
 
 Il s’agit du site réalisé et fourni sous la forme d’une archive ZIP.
 
@@ -459,11 +459,11 @@ Cette archive doit comprendre :
 
 Le site doit être organisé et suffisamment complet pour que son fonctionnement puisse être vérifié localement.
 
-Livrable 2 — Un document de synthèse d’une page
+#### Livrable 2 — Un document de synthèse d’une page
 
 Un document d’une page doit accompagner le site.
 
-Il doit présenter :
+#### Il doit présenter :
 
 1. Les noms des membres du groupe.
 2. La manière dont le travail HTML s’intègre dans l’étude de cas conduite avec M. Obadia.
@@ -475,7 +475,7 @@ Il doit présenter :
 
 Ce document doit permettre de comprendre les décisions prises pendant la réalisation du site. Il ne s’agit donc pas uniquement d’une description du résultat visuel.  
 
-Publication en ligne — Option facultative
+#### Publication en ligne — Option facultative
 
 Le cours évoque également la possibilité de publier la page sur GitHub.
 
@@ -495,7 +495,6 @@ Enfin, l’usage de l’intelligence artificielle est possible pour obtenir des 
 
 ## 5. Les dates et le calendrier de travail
 
-La transcription permet d’identifier les échéances suivantes.
 
 Date ou période	Événement ou travail	Statut
 20 octobre 2026	Séance consacrée à la présentation HTML5, à la structuration documentaire et au cahier des charges du site.	Séance réalisée.
@@ -524,13 +523,11 @@ Pour organiser le travail jusqu’au 12 novembre, voici une proposition opérati
 
 Ce rétroplanning est une proposition d’organisation du travail, et non un calendrier imposé dans la transcription.
 
-⸻
-
 ## 6. La checklist finale avant le rendu
 
 Avant de remettre votre travail, vérifiez les points suivants.
 
-Structure HTML
+### Structure HTML
 
 * Le document est déclaré en HTML5.
 * La langue du document est renseignée.
@@ -539,7 +536,7 @@ Structure HTML
 * Le contenu est placé dans <body>.
 * Les titres respectent une hiérarchie logique.
 
-Contenu et navigation
+### Contenu et navigation
 
 * Le site présente au moins 10 éléments documentaires.
 * Les éléments sont organisés par catégories.
@@ -547,14 +544,14 @@ Contenu et navigation
 * Les liens internes et externes fonctionnent.
 * Les relations entre artistes, albums et labels sont représentées lorsque cela est pertinent.
 
-Images et accessibilité
+### Images et accessibilité
 
 * Les images sont libres de droits.
 * Chaque article comporte au minimum une image.
 * Les images possèdent un texte alternatif pertinent.
 * Les titres et les légendes sont renseignés.
 
-Organisation technique
+### Organisation technique
 
 * Le HTML et le CSS sont enregistrés dans des fichiers distincts.
 * Les noms de fichiers sont cohérents.
@@ -562,7 +559,7 @@ Organisation technique
 * Le site fonctionne localement.
 * Le code a été vérifié avec un validateur HTML.
 
-Livraison
+### Livraison
 
 * Le site est fourni dans une archive ZIP.
 * Le document de synthèse d’une page est joint.
@@ -575,13 +572,9 @@ Livraison
 Pour réviser efficacement cette séance, cinq principes doivent être maîtrisés.
 
 1. Le HTML structure le contenu. Les balises définissent la nature des éléments d’une page et leur organisation.
-
 2. La structure documentaire donne du sens au document. Les titres, les sections, les paragraphes et les listes permettent d’identifier la hiérarchie des informations.
-
 3. La présentation visuelle est distincte de la structure. Le HTML porte la structure ; le CSS porte les règles de présentation.
-
 4. Une page Web est aussi une ressource documentaire. Les métadonnées, les liens, les textes alternatifs, les légendes et l’organisation des fichiers contribuent à sa qualité et à son exploitabilité.
-
 5. Le rendu attendu doit être documenté et vérifiable. Le site HTML5 et le document de synthèse constituent les deux livrables principaux annoncés, avec un rendu prévu le 12 novembre 2026.
 
 Le fil directeur de la séance est donc la conception d’une interface Web dont la structure technique traduit correctement l’organisation documentaire et les besoins fonctionnels du système d’information.
