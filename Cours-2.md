@@ -3,14 +3,14 @@
 
 Cette synthèse reprend les notions présentées pendant la séance du 20 octobre 2026. Elle distingue les principes de structuration documentaire, les principales balises HTML abordées, les exigences du travail à réaliser et les échéances évoquées pendant le cours.
 
-L’objectif général est de comprendre comment concevoir une page Web structurée, accessible et exploitable par les navigateurs, les moteurs d’indexation et les outils de traitement de l’information. Le travail s’inscrit dans la continuité de l’étude de cas sur une plateforme de musique en ligne, menée avec M. Obadia dans le cadre de l’UE NTD 214.
+L’objectif général est de comprendre comment concevoir une page Web structurée, accessible et exploitable par les navigateurs, les moteurs d’indexation et les outils de traitement de l’information. Le travail s’inscrit dans la continuité de l’étude de cas sur une plateforme de musique en ligne, menée avec M. Obadia dans le cadre de l’UE NTD214.
 
 ## 1. Les principes fondamentaux du HTML5
 ### 1.1. Comprendre la fonction du HTML
 
 HTML signifie **HyperText Markup Language**. C’est un langage de balisage qui permet de structurer un document destiné à être interprété par un navigateur Web.
 
-Le HTML repose sur trois principes essentiels :
+#### Le HTML repose sur trois principes essentiels :
 
     - La structuration du contenu : les balises permettent de distinguer les titres, les paragraphes, les sections, les listes, les liens et les images.
     - La qualification documentaire : les balises donnent une signification aux éléments du document et permettent d’en identifier la nature.
@@ -41,13 +41,13 @@ Cette adaptation mobilise les feuilles de style et la structure du document.
 
 Une balise HTML est généralement délimitée par des chevrons.
 
-Exemple :
+#### Exemple :
 
 ```HTML
 <p>Voici un paragraphe de texte.</p>
 ```
 
-Dans cet exemple :
+#### Dans cet exemple :
 
 * ```<p>``` ouvre le paragraphe ;
 * le texte constitue le contenu ;
@@ -57,7 +57,7 @@ La plupart des éléments HTML possèdent une balise ouvrante et une balise ferm
 
 Les balises peuvent également comporter des attributs, qui précisent les propriétés d’un élément.
 
-_Exemple :_
+#### Exemple :
 
 ```HTML
 <html lang="fr">
@@ -75,7 +75,7 @@ Un document HTML doit permettre d’identifier la hiérarchie des informations, 
 
 Par exemple, un titre principal doit être encodé comme un titre de premier niveau, et non simplement agrandi à l’aide du CSS.
 
-Cette distinction présente plusieurs avantages :
+#### Cette distinction présente plusieurs avantages :
 
 * faciliter la compréhension du document par les navigateurs ;
 * améliorer son exploitation par les moteurs d’indexation ;
@@ -99,7 +99,7 @@ Une page HTML5 doit comporter une structure générale cohérente.
 <body>	Contient le contenu principal présenté à l’utilisateur.
 ```
 
-Exemple de structure minimale :
+#### Exemple de structure minimale :
 
 ```HTML
 <!DOCTYPE html>
@@ -123,7 +123,6 @@ Le titre défini dans ```<title>``` est distinct du titre principal affiché dan
 
 Les titres servent à hiérarchiser l’information, les sections et le conteneur principal à l'encadrer. 
 
-
 | Balise | Fonction |
 | --- | --- |
 | ```<h1>``` | Titre principal de la page | 
@@ -135,10 +134,9 @@ Les titres servent à hiérarchiser l’information, les sections et le conteneu
 | ```<main>``` | Contenu principal, ça se distingue des éléments de confort visuel ou de la publicité contextuelle | 
 | ```<section>``` | Regroupe un ensemble de contenu thématiquement cohérent, nécessite un titre de niveau inférieur | 
 
-Le cours présente les six niveaux de titres comme un moyen de représenter la hiérarchie d’un document.
+Les six niveaux de titres sont un moyen de représenter la hiérarchie d’un document.
 
-Exemple :
-
+#### Exemple :
 
 ```HTML
 <h1>Musique en ligne</h1>
@@ -175,7 +173,7 @@ Balise	Fonction
 <code>	Identifie un fragment de code informatique.
 ```
 
-Exemple :
+#### Exemple :
 ```HTML
 <p>
     Le <strong>HTML5</strong> permet de structurer
@@ -194,7 +192,7 @@ Exemple :
 
 La distinction entre ```<strong>``` et ```<em>``` est importante : ces balises qualifient le contenu, elles ne servent pas simplement à obtenir du gras ou de l’italique.
 
-Le cours insiste sur le fait que les balises doivent être utilisées à bon escient, en fonction de la signification du texte.
+Les balises doivent être utilisées à bon escient, en fonction de la signification du texte.
 
 ### 2.4. Les liens hypertextes
 
@@ -202,7 +200,7 @@ La balise ```<a>``` permet de créer un lien vers une autre ressource.
 
 Son attribut ```href``` indique la destination du lien.
 
-Exemple :
+#### Exemple :
 
 ```HTML
 <p>
@@ -215,7 +213,7 @@ Exemple :
 
 Dans le cadre du projet, les liens doivent permettre de naviguer entre les différentes parties du site et de consulter des ressources externes pertinentes.
 
-Vous pouvez notamment :
+#### Vous pouvez notamment :
 
 * relier l'artiste à sa page officielle ;
 * relier l'album à la page de l’artiste correspondant ;
@@ -224,7 +222,7 @@ Vous pouvez notamment :
 
 Pour créer une navigation interne, on peut utiliser l’attribut ```id``` sur une section et l’attribut ```href``` sur le lien correspondant.
 
-Exemple :
+#### Exemple :
 
 ```HTML
 <nav>
@@ -251,8 +249,6 @@ Le cours demande d’intégrer au minimum une image libre de droits par article,
 
 Les principaux éléments à connaître sont les suivants :
 
-Élément	Fonction
-
 ```HTML
 <img>	Insère une image.
 src	Indique l’emplacement de l’image.
@@ -262,7 +258,7 @@ title	Peut fournir une information complémentaire associée à l’élément.
 <figcaption>	Fournit la légende du contenu placé dans <figure>.
 ```
 
-Exemple :
+#### Exemple :
 ```HTML
 <figure>
     <img
@@ -278,7 +274,8 @@ Exemple :
 
 Le texte alternatif doit décrire l’information pertinente portée par l’image. Il contribue notamment à l’accessibilité du document.
 
-Point de vigilance : une image visible dans la page ne suffit pas à satisfaire la consigne documentaire. Il faut également renseigner son texte alternatif avec l'attribut ```alt```, sa légende et les informations nécessaires à l’identification de sa source.
+#### Point de vigilance : 
+> une image visible dans la page ne suffit pas à satisfaire la consigne documentaire. Il faut également renseigner son texte alternatif avec l'attribut ```alt```, sa légende et les informations nécessaires à l’identification de sa source.
 
 ### 2.6. Les listes
 
@@ -290,7 +287,7 @@ Balise	Fonction
 <li>	Définit un élément de liste.
 ```
 
-Exemple :
+#### Exemple :
 
 ```HTML
 <h2>Les genres musicaux</h2>
@@ -309,7 +306,7 @@ Les listes facilitent la lecture et permettent de présenter les informations se
 
 La balise ```<nav>``` sert à regrouper des liens de navigation.
 
-Exemple :
+#### Exemple :
 
 ```HTML
 <nav>
@@ -324,7 +321,6 @@ Exemple :
 Elle donne une signification fonctionnelle au groupe de liens : il s’agit d’un dispositif de navigation.
 
 Dans la conception d’un site documentaire, cette qualification aide à distinguer les différentes composantes de la page.
-
 
 ## 3. Les métadonnées, l’encodage et la qualité documentaire
 
@@ -341,7 +337,6 @@ Le titre du document, la langue et l’encodage des caractères font partie des 
 ### 3.2. L’encodage des caractères
 
 L’encodage détermine la manière dont les caractères sont représentés dans le document.
-
 La déclaration suivante doit être présente dans l’en-tête :
 
 ```HTML
@@ -353,9 +348,9 @@ Un encodage cohérent est indispensable pour éviter les problèmes d’affichag
 
 ### 3.3. La validation du code HTML
 
-Le cours demande de produire un document aussi conforme que possible aux spécifications du HTML5 et de vérifier sa validité à l’aide du validateur du W3C.
+Le cours demande de produire un document aussi conforme que possible aux spécifications du HTML5 et de vérifier sa validité à l’aide du [validateur du W3C](https://validator.w3.org/).
 
-Le validateur permet notamment de détecter :
+#### Le validateur permet notamment de détecter :
 
 * des erreurs de syntaxe ;
 * des balises incorrectement utilisées ;
