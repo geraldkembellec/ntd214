@@ -1,12 +1,12 @@
 # NTD 214 — Synthèse de la régulation 2 : HTML5, CSS et publication Web
-## Principes fondamentaux, sélecteurs CSS, responsive design, _GitHub Pages_ et travail à réaliser
+## Principes fondamentaux, sélecteurs CSS, _responsive design_, _GitHub Pages_ et travail à réaliser
 
 La séance porte sur la mise en forme avec CSS, les différentes méthodes de sélection des éléments, l’adaptation aux supports d’affichage et une première publication en ligne avec _GitHub Pages_.
 
 ## 1. Les principes fondamentaux du CSS
 ### 1.1. Comprendre la fonction du CSS
 
-CSS signifie **Cascading Style Sheets**, ou feuilles de style en cascade. Le CSS décrit la présentation visuelle d’un document : couleurs, typographie, dimensions, espacements et mise en page.
+CSS signifie **_Cascading Style Sheets_**, ou feuilles de style en cascade. Le CSS décrit la présentation visuelle d’un document : couleurs, typographie, dimensions, espacements et mise en page.
 
 Le principe central est de pouvoir conserver une même structure HTML et lui appliquer différentes présentations. Le cours évoque notamment le projet [CSS Zen Garden](https://csszengarden.com/), qui illustre la possibilité de transformer l’apparence d’une même page sans en changer la structure documentaire.
 
@@ -61,7 +61,10 @@ Une erreur de syntaxe, comme l’oubli d’un point-virgule ou d’une accolade,
 
 ## 2. Les sélecteurs CSS
 
-Les sélecteurs déterminent les éléments HTML auxquels une règle CSS s’applique. La séance présente trois modes de sélection principaux : par type de balise, par identifiant et par classe.
+Les sélecteurs déterminent les éléments HTML auxquels une règle CSS s’applique. La séance présente trois modes de sélection principaux : 
+- par type de balise,
+- par identifiant
+- et par classe.
 
 ### 2.1. Sélectionner les balises par leur nom
 
