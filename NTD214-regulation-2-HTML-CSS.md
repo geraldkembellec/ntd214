@@ -1,16 +1,14 @@
 # NTD 214 — Synthèse de la régulation 2 : HTML5, CSS et publication Web
-## Principes fondamentaux, sélecteurs CSS, responsive design, GitHub Pages et travail à réaliser
+## Principes fondamentaux, sélecteurs CSS, responsive design, _GitHub Pages_ et travail à réaliser
 
-La séance porte principalement sur la mise en forme avec CSS, les différentes méthodes de sélection des éléments, l’adaptation aux supports d’affichage et une première publication en ligne avec GitHub Pages.
-
+La séance porte sur la mise en forme avec CSS, les différentes méthodes de sélection des éléments, l’adaptation aux supports d’affichage et une première publication en ligne avec _GitHub Pages_.
 
 ## 1. Les principes fondamentaux du CSS
-
 ### 1.1. Comprendre la fonction du CSS
 
 CSS signifie **Cascading Style Sheets**, ou feuilles de style en cascade. Le CSS décrit la présentation visuelle d’un document : couleurs, typographie, dimensions, espacements et mise en page.
 
-Le principe central est de pouvoir conserver une même structure HTML et lui appliquer différentes présentations. Le cours évoque notamment le projet CSS Zen Garden, qui illustre la possibilité de transformer l’apparence d’une même page sans en changer la structure documentaire.
+Le principe central est de pouvoir conserver une même structure HTML et lui appliquer différentes présentations. Le cours évoque notamment le projet [CSS Zen Garden](https://csszengarden.com/), qui illustre la possibilité de transformer l’apparence d’une même page sans en changer la structure documentaire.
 
 | Composant | Fonction | Exemples |
 | --- | --- | --- |
