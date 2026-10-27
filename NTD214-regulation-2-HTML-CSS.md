@@ -20,7 +20,7 @@ Le CSS peut également s’appliquer à des documents XML. Dans le cadre de cett
 
 ### 1.2. Trois manières d’appliquer des styles
 
-Le cours distingue trois méthodes.
+Nous distinguons trois méthodes.
 
 | Méthode | Principe | Appréciation |
 | --- | --- | --- |
