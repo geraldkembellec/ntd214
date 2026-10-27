@@ -62,8 +62,8 @@ Une erreur de syntaxe, comme l’oubli d’un point-virgule ou d’une accolade,
 ## 2. Les sélecteurs CSS
 
 Les sélecteurs déterminent les éléments HTML auxquels une règle CSS s’applique. La séance présente trois modes de sélection principaux : 
-- par type de balise,
-- par identifiant
+- par type de balise ;
+- par identifiant ;
 - et par classe.
 
 ### 2.1. Sélectionner les balises par leur nom
@@ -166,17 +166,15 @@ header {
 
 Un code hexadécimal commence par `#`. Les outils de sélection de couleurs et les palettes peuvent aider à choisir des couleurs complémentaires et à conserver une identité visuelle cohérente.
 
-La séance mentionne également les représentations RVB (rouge, vert, bleu) et CMJN, davantage associé aux usages de l’impression. La transparence peut être prise en compte avec des formats CSS qui comportent un canal alpha.
-
 Le choix des couleurs relève de la conception visuelle, mais doit conserver une bonne lisibilité, notamment un contraste suffisant entre le texte et son arrière-plan.
 
 ## 3. Adapter la présentation aux supports
 
-### 3.1. Responsive design et Media Queries
+### 3.1. _Responsive design_ et _Media Queries_
 
-Le responsive design consiste à adapter la présentation d’une page aux caractéristiques du support et à la taille de l’écran. La séance précise que cette adaptation se réalise avec le CSS, notamment grâce aux **Media Queries**.
+Le _responsive design_ consiste à adapter la présentation d’une page aux caractéristiques du support et à la taille de l’écran. La séance précise que cette adaptation se réalise avec le CSS, notamment grâce aux **_Media Queries_**.
 
-Une Media Query permet d’appliquer certaines règles lorsque des conditions sont réunies, par exemple lorsque la largeur de l’écran est inférieure à une valeur donnée.
+Une _Media Query_ permet d’appliquer certaines règles lorsque des conditions sont réunies, par exemple lorsque la largeur de l’écran est inférieure à une valeur donnée.
 
 ```css
 @media screen and (max-width: 600px) {
@@ -255,7 +253,7 @@ Le nom `index.html` est présenté comme le nom usuel du fichier d’accueil d�
 
 ### 5.1. À quoi sert GitHub ?
 
-La séance présente GitHub comme une plateforme permettant notamment de conserver et partager des fichiers, de travailler de manière collaborative et de publier des pages Web statiques avec GitHub Pages.
+La séance présente GitHub comme une plateforme permettant (notamment) de conserver et partager des fichiers, de travailler de manière collaborative et de publier des pages Web statiques avec GitHub Pages.
 
 La publication en ligne est présentée comme une possibilité complémentaire et un bonus pour le projet, pas comme une obligation du rendu initial.
 
@@ -290,32 +288,13 @@ La séance mentionne également l’usage d’outils de validation pour examiner
 
 ## 6. Clarifications apportées pendant la régulation
 
-### 6.1. Nature du travail
-
 La séance précise que le travail HTML demandé est plutôt individuel. La régulation constitue un temps complémentaire consacré à la suite du cours, aux questions, aux outils et aux difficultés rencontrées.
 
 Le projet reste lié à l’étude de cas « Musique Online » conduite avec M. Obadia : le travail de modélisation documentaire est prolongé par la conception de l’interface destinée à l’utilisateur. La séance se concentre sur la présentation ; le stockage en base de données et l’étude des CMS sont annoncés pour une étape ultérieure.
 
-### 6.2. Que signifie « élément » ou « item » dans le cahier des charges ?
-
-Un item désigne un élément documentaire présenté dans le site. Il peut s’agir, par exemple, d’un artiste, d’un album ou d’un label. Il ne désigne pas uniquement une balise HTML ni seulement une entrée de menu.
-
-L’enseignant précise qu’une proposition comportant dix artistes peut constituer dix éléments documentaires. Les catégories servent à organiser ces éléments. Il faut donc distinguer :
-- la **catégorie documentaire** : artistes, albums, labels ;
-- l’**élément documentaire** : un artiste donné, un album donné, un label donné ;
-- l’**élément de navigation** : un lien du menu permettant d’accéder à une page ou à une section.
-
-L’objectif est de présenter un contenu suffisamment consistant et clairement organisé, et non de multiplier artificiellement les rubriques.
-
-### 6.3. Différence entre `<section>` et `<article>`
-
-La question est abordée pendant la séance. Une section sert à regrouper un ensemble thématique dans la structure d’une page. Un article est plutôt destiné à un contenu autonome, qui peut avoir un sens propre hors du contexte immédiat de la page. La séance évoque notamment les nouvelles, les contenus de _microblogging_ et les éléments provenant de flux RSS comme exemples possibles de contenus de type article.
-
-Le choix doit être guidé par la fonction documentaire du contenu, plutôt que par le rendu visuel recherché. Le CSS permet ensuite de mettre en forme ces éléments.
-
 ## 7. Le travail à réaliser et le calendrier
 
-### 7.1. Projet « Musique Online »
+### Projet « Musique Online »
 
 Le travail demandé prolonge l’étude de cas sur la plateforme musicale. Il s’agit de concevoir une interface HTML5 permettant à l’utilisateur de consulter des éléments documentaires classés par type, par exemple des artistes, des albums et des labels.
 
@@ -331,7 +310,7 @@ Les exigences rappelées pendant la séance sont celles du cahier des charges pr
 
 Le choix entre une page unique organisée en sections et plusieurs pages liées entre elles dépend de la conception retenue, sous réserve de respecter les exigences fonctionnelles.
 
-### 7.2. Livrables
+### Livrables
 
 Les deux livrables principaux rappelés dans le cours précédent restent :
 1. le site Web HTML5, fourni dans une archive ZIP avec les fichiers nécessaires ;
@@ -339,24 +318,13 @@ Les deux livrables principaux rappelés dans le cours précédent restent :
 
 La publication sur GitHub Pages est une possibilité facultative et un bonus. Elle peut servir à tester et à présenter le résultat en ligne.
 
-### 7.3. Dates
-
-| Date ou période | Élément | Statut |
-| --- | --- | --- |
-| 27 octobre 2026 | Séance de régulation 2 : CSS, responsive design et démonstration de publication | Séance réalisée |
-| Semaine du 26 octobre | Poursuite du travail en autonomie et questions-réponses | Période de travail |
-| 12 novembre 2026 | Rendu du travail HTML5 | Échéance annoncée dans la synthèse du cours du 20 octobre |
-| Séance suivante | Régulation et accompagnement sur la publication en ligne | Étape évoquée pendant la séance |
-
-La séance du 27 octobre ne donne pas de nouvelle date de rendu. La date du 12 novembre est reprise de la synthèse du cours précédent ; elle n’est pas annoncée à nouveau dans cette régulation.
-
-### 7.4. Proposition de rétroplanning
+### Proposition de rétroplanning
 
 1. **Cadrage** : relire le cahier des charges et préciser les catégories documentaires.
 2. **Collecte** : sélectionner les éléments, réunir les textes, les liens et les images.
 3. **Structure HTML** : organiser les pages, les titres, les sections et la navigation.
 4. **Feuille de style** : créer le fichier CSS et choisir les styles communs, les couleurs et les espacements.
-5. **Adaptation** : vérifier la lisibilité sur différentes largeurs d’écran ; ajouter des Media Queries si nécessaire.
+5. **Adaptation** : vérifier la lisibilité sur différentes largeurs d’écran ; ajouter des _Media Queries_ si nécessaire.
 6. **Contrôle** : vérifier les chemins, les liens, les images, le contraste et la validité du code.
 7. **Documentation** : rédiger le document de synthèse d’une page et documenter les usages éventuels de l’IA.
 8. **Livraison** : préparer l’archive ZIP et vérifier que les fichiers nécessaires sont présents.
