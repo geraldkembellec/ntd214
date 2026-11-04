@@ -576,7 +576,7 @@ Exemple de mise en œuvre pédagogique :
 $requete = "SELECT * FROM eleve";
 $resultat = $connecteur->query($requete);
 
-while ($ligne = $resultat->fetch_assoc()) {
+foreach ($resultat as $ligne) {
     print("<p>");
     print($ligne["prenom"] . " " . $ligne["nom"]);
     print("</p>");
