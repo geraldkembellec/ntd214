@@ -5,7 +5,7 @@
 ### De la donnée stockée à la page web dynamique
 
 **Support de cours — 3 novembre 2026**  
-*Master MéDAS · Systèmes d'information documentaire*
+*NTD214 / CS22 Systèmes d'information documentaire*
 
 
 ---
